@@ -1,0 +1,94 @@
+# ─── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Virtual Environments ───────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+*.env
+
+# ─── PyInstaller ────────────────────────────────────────────────
+# Usually creates a folder with executable and metadata
+*.manifest
+*.spec
+
+# ─── Jupyter Notebooks ──────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb~
+
+# ─── VSCode ─────────────────────────────────────────────────────
+.vscode/
+.history/
+
+# ─── PyCharm ────────────────────────────────────────────────────
+.idea/
+*.iml
+
+# ─── mypy, pylint, pyright, pytest, coverage ───────────────────
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytest_cache/
+coverage.xml
+htmlcov/
+.cache/
+.tox/
+.nox/
+*.cover
+*.log
+*.tmp
+*.bak
+
+# ─── dotenv / Secrets ───────────────────────────────────────────
+.env
+.env.*
+
+# ─── Local Artifacts ────────────────────────────────────────────
+*.db
+*.sqlite3
+*.lock
+*.log
+*.csv
+*.tsv
+*.tmp
+*.bak
+*.orig
+
+# ─── Images, Results, Graphs ────────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+output/
+results/
+logs/
+
+# ─── Node / Frontend (caso use) ─────────────────────────────────
+node_modules/
+*.tsbuildinfo
+npm-debug.log*
+
+# ─── Docker ─────────────────────────────────────────────────────
+*.pid
+docker-compose.override.yml
+
+# ─── OS Files ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
