@@ -2,7 +2,6 @@ import os
 import getpass
 from dotenv import load_dotenv
 
-from graph import graphChatBot
 
 from IPython.display import Image
 from PIL import Image as PILImage
@@ -10,6 +9,8 @@ from io import BytesIO
 
 # Carrega variáveis do .env
 load_dotenv()
+
+from graph import graphChatBot
 
 
 # Função para pedir variáveis ausentes (ex: API KEY)
